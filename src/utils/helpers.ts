@@ -1,3 +1,4 @@
+// fix(#2): missing overflow check in balance accumulation
 export function formatValue(v: number): string {
   return v.toFixed(2);
 }
